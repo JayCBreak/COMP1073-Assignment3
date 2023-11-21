@@ -13,7 +13,8 @@ smoothies.forEach(function (smoothie) {
     smoothieNames.push(smoothieTitle);
   }
   count++;
-  smoothie.style.backgroundImage = `url('../imgs/smoothie-svgrepo-com (${count}).svg')`;
+  // Using code to call imgs from github as calling local doesn't work on github pages
+  smoothie.style.backgroundImage = `url('https://raw.githubusercontent.com/JayCBreak/COMP1073-Assignment3/assignment3/imgs/smoothie-svgrepo-com (${count}).svg')`;
 });
 
 //radio buttons for lactose free and iced
