@@ -39,7 +39,7 @@ radioButtons.forEach(function (radio) {
     radio.setAttribute("name", newName);
   }
 
-  //toggle radio btns
+  //toggle radio buttons
   let old = null;
   if (radio.checked) {
     old = radio;
